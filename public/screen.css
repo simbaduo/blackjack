@@ -94,10 +94,3 @@ button {
 .hide {
   display: none;
 }
-
-/* .half {
-  moz-transform: scale(0.5);
-  webkit-transform: scale(0.5);
-  transform: scale(0.5);
-} */
-//how can I apply this in javascript
