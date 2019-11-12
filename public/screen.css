@@ -20,7 +20,13 @@ body {
 }
 
 .userDisplay {
-  text-align: center;
+  margin-left: 18rem;
+  font-size: 2rem;
+}
+
+.dealerDisplay {
+  margin-left: 60rem;
+  font-size: 2rem;
 }
 
 .page-leftbox {
