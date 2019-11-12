@@ -1,5 +1,6 @@
 :root {
   font: 16px / 1 sans-serif;
+  color: white;
 }
 
 html {
@@ -7,6 +8,90 @@ html {
 }
 
 body {
-  margin: 0;
-  min-height: 100%;
+  background-image: url(./images/blkjckbg.jpg);
 }
+
+.page {
+  height: 50%;
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+}
+
+.userDisplay {
+  text-align: center;
+}
+
+.page-leftbox {
+  padding: 3rem;
+  margin-right: 8rem;
+  display: flex;
+  list-style: none;
+}
+
+.page-rightbox {
+  padding: 3rem;
+  margin-left: 8rem;
+  display: flex;
+  list-style: none;
+}
+
+.title {
+  margin-top: 8rem;
+  text-align: center;
+  font-size: 3.5rem;
+}
+
+.dealerCards {
+  display: flex;
+  list-style: none;
+}
+
+.userCards {
+  display: flex;
+  list-style: none;
+}
+
+.footer {
+  margin-top: 5rem;
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  align-content: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#dealbtn {
+  margin: 0 auto;
+  display: block;
+}
+
+#resetbtn {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#standbtn {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+#hitbtn {
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.hide {
+  display: none;
+}
+
+/* .half {
+  moz-transform: scale(0.5);
+  webkit-transform: scale(0.5);
+  transform: scale(0.5);
+} */
+//how can I apply this in javascript
